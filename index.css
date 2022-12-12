@@ -1,10 +1,12 @@
 /* This is the CSS for the page, which defines the styles for the elements */
 body {
     font-family: Arial, sans-serif;
+    background-color: black;
   }
   
   h1 {
     text-align: center;
+    color: white;
   }
   
   #games {
