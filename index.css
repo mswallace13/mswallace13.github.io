@@ -1,10 +1,10 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(8, 8, 8);
   }
   h1 {
-    color: blue;
+    color: rgb(250, 250, 252);
   }
   p {
-    color: red;
+    color: rgb(255, 252, 252);
   }
 
