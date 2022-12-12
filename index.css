@@ -7,6 +7,7 @@ body {
     
   }
   p {
+    font-family: monospace;
     color: rgb(255, 252, 252);
   }
 
