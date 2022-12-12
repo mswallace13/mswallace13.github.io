@@ -4,7 +4,7 @@ let y = prompt("num 2");
 var result = 0;
 
 // define a function to add the operands
-function add(x, y) {
+function addition(x, y) {
   return x + y;
 }
 
