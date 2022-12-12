@@ -24,7 +24,7 @@ function divide(x, y) {
 }
 
 // perform the addition and store the result
-result = add(x, y);
+result = addition(x, y);
 prompt(x + " + " + y + " = " + result);
 
 // perform the subtraction and store the result
