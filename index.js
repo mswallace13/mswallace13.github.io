@@ -1,7 +1,7 @@
 // define variables for the operands and the result
 let x = prompt("num 1");
 let y = prompt("num 2");
-let result = 0;
+var result = 0;
 
 // define a function to add the operands
 function add(x, y) {
