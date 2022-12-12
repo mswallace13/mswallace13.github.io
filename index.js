@@ -5,7 +5,7 @@ var result = 0;
 
 // define a function to add the operands
 function addition(x, y) {
-  return x + y;
+  return +x + +y;
 }
 
 // define a function to subtract the operands
