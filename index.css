@@ -1,3 +1,16 @@
-
+/* This is the CSS for the page, which defines the styles for the elements */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #games {
+    margin: 0 auto;
+    width: 800px;
+  }
+  
   
 
