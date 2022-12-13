@@ -13,6 +13,26 @@
   <link rel="stylesheet" href="index.css">
   <body>
     <h1>Educator_Hustle Dev</h1>
+    <script>
+      function light(sw) {
+        var pic;
+        if (sw == 0) {
+          pic = "pic_bulboff.gif"
+        } else {
+          pic = "pic_bulbon.gif"
+        }
+        document.getElementById('myImage').src = pic;
+      }
+      </script>
+      
+      <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+      
+      p {text-align: center;}
+    
+      <p>
+      <button type="button" onclick="light(1)">on</button>
+      <button type="button" onclick="light(0)">off</button>
+      </p>
 
     <h3><p>01. about</p></h3>
     <p>i'm a middle school educator in houston</p>
@@ -32,26 +52,7 @@ click to display date and time.</button>
 </p>
 </div>
 
-<script>
-  function light(sw) {
-    var pic;
-    if (sw == 0) {
-      pic = "pic_bulboff.gif"
-    } else {
-      pic = "pic_bulbon.gif"
-    }
-    document.getElementById('myImage').src = pic;
-  }
-  </script>
-  
-  <img id="myImage" src="pic_bulboff.gif" width="100" height="180">
-  
-  p {text-align: center;}
 
-  <p>
-  <button type="button" onclick="light(1)">on</button>
-  <button type="button" onclick="light(0)">off</button>
-  </p>
     
   </body>
 </html>
