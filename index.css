@@ -11,6 +11,10 @@ body {
     color: rgb(255, 252, 252);
   }
 
+  ul {
+    color:whitesmoke;
+  }
+
   mlb {
     color:darkorange;
   }
