@@ -19,10 +19,10 @@ body {
     color:white;
   }
 
-  braves {
+  .braves {
     color:red;
   }
 
-  mlb {
+  .astros {
     color:darkorange;
   }
