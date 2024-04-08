@@ -7,9 +7,9 @@ body {
     
   }
 
-
+/* unvisited link */
 a:link {
-  color: deeppink;
+  color: red; 
 }
 
 
